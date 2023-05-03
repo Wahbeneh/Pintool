@@ -1,0 +1,125 @@
+#titulo {
+
+    font-family:Arial, Helvetica, sans-serif;
+    color: #ffffff;
+
+}
+
+#Nome {
+
+font-family:Arial, Helvetica, sans-serif;
+font-size: 35px;
+background-color:white; 
+background-image: url(imagens/vetor\ usuario.png);
+background-repeat: no-repeat;
+background-position: left;
+padding-left: 1.3em;
+background-size: 35px;
+background-position-x: 10px; 
+border-radius: 20px;
+border: 0;
+
+
+}
+
+#Senha {
+
+font-family:Arial, Helvetica, sans-serif;
+font-size: 35px;
+background-color:white; 
+background-image: url(imagens/vetor\ senha.png);
+background-repeat: no-repeat;
+background-position: left;
+padding-left: 1.3em;
+background-size: 35px;
+background-position-x: 10px;  
+border-radius: 20px;
+border: 0; 
+     
+        }
+
+#Email {
+
+font-family:Arial, Helvetica, sans-serif;
+font-size: 35px;
+background-color:white; 
+background-image: url(imagens/vetor\ email.png);
+background-repeat: no-repeat;
+background-position: left;
+padding-left: 1.3em;
+background-size: 35px;
+background-position-x: 10px; 
+border-radius: 20px;
+border: 0;
+        
+
+}
+
+#body {
+    
+background-color: #2F0062;
+padding: 50px;
+
+}
+
+#formulário {
+
+    margin: 40px auto; max-width: 400px;
+}
+
+
+
+#fieldset {
+    
+    background-color: #8C52FF;
+    border-radius: 20px;
+    border: 0;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    
+}
+
+#data {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+#nascimento {
+
+    border-radius: 20px;
+    border: 0%;
+}
+
+#genero {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+
+}
+
+#botao {
+   
+    color: #ffffff;
+    border-radius: 20px;
+    background-color: #2F0062;
+    margin-bottom: 1em;
+    border: 0%;
+    font-size: 1.2em;
+    
+}
+
+#termo {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+#form {
+
+        display: inline;
+        width: 300px;
+}

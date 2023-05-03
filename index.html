@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastrocss.css">
+    <title>Document</title>
+</head>
+<body id="body">
+  <center><img src="imagens/logo pintool.png" width="150"></center>
+    <br>
+    <br>
+    <br>
+    <fieldset id="fieldset">
+<form >
+        <center><h1 id="titulo">Cadastro</h1></center>
+        <div>
+            <input type="text" name="Nome" placeholder="Defina um nome de usuário" id="Nome">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="password" name="Senha" placeholder="Defina uma senha" id="Senha">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="email" name="Email" placeholder="Insira seu E-mail" id="Email">
+        </div>
+
+        <div>
+            
+        </div>
+        <h4 id="data">Data de nascimento</h4>
+
+        <div id="nascimento">
+            <input type="date">
+        </div>
+
+        <h4 id="genero">Gênero</h4>
+        <div>
+            <select name="gênero" id="">
+                <option selected disabled value="">Selecione</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Feminino">Feminino</option>
+                <option value="Prefiro não dizer">Prefiro não dizer</option>
+            </select>
+        <br>
+        <br>
+        <div id="termo">
+                <input type="checkbox" id="aceitar" value="aceitar">
+                <label for="aceitar">Concordo com os termos de serviço e a política de privacidade da PinTool.</label>
+        </div>
+        </div>
+        <br>
+        <center><button id="botao"  type="submit" onsubmit="">Criar conta</button></center>
+    </form>
+    </fieldset>
+</body>
+</html>
